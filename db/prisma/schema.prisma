@@ -1,0 +1,4 @@
+datasource db {
+  provider = "cockroachdb"
+  url      = env("COCKROACH_DB_URL")
+}

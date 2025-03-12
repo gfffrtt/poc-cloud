@@ -1,0 +1,19 @@
+{
+  "name": "db",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "new-migration": "bun run index.ts",
+    "migrate": "prisma migrate deploy"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "prisma": "^6.5.0"
+  }
+}
